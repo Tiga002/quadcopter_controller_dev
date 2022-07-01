@@ -26,3 +26,7 @@ VSS_VISUALIZATION_SL3D = Simulink.Variant('VSS_VISUALIZATION==3');
 % Vehicle
 VSS_VEHICLE_LINEAR = Simulink.Variant('VSS_VEHICLE==0');
 VSS_VEHICLE_NONLINEAR = Simulink.Variant('VSS_VEHICLE==1');
+
+% Flight Control System
+VSS_FCS_PID = Simulink.Variant('VSS_FCS==0');
+VSS_FCS_INDI = Simulink.Variant('VSS_FCS==1');

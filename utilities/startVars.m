@@ -14,6 +14,7 @@ VSS_SENSORS = 1;       % 0: Feedthrough, 1: Dynamics
 VSS_ENVIRONMENT = 0;   % 0: Constant, 1: Variable
 VSS_VISUALIZATION = 3; % 0: Scopes, 1: Send values to workspace, 2: FlightGear, 3: Simulink 3D.
 VSS_VEHICLE = 1;       % 0: Linear Airframe, 1: Nonlinear Airframe.
+VSS_FCS = 0;           % 0: PID Controller, 1: INDI Controller
  
 % Bus definitions
 asbBusDefinitionCommand; 
