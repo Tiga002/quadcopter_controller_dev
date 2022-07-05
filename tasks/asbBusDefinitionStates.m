@@ -121,7 +121,6 @@ elems(9).Max = [];
 elems(9).DocUnits = '';
 elems(9).Description = '';
 
-
 StatesBus = Simulink.Bus;
 StatesBus.HeaderFile = '';
 StatesBus.Description = '';

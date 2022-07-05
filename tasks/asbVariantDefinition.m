@@ -30,3 +30,4 @@ VSS_VEHICLE_NONLINEAR = Simulink.Variant('VSS_VEHICLE==1');
 % Flight Control System
 VSS_FCS_PID = Simulink.Variant('VSS_FCS==0');
 VSS_FCS_INDI = Simulink.Variant('VSS_FCS==1');
+VSS_FCS_PID_INDI = Simulink.Variant('VSS_FCS==2');
